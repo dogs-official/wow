@@ -1,0 +1,19 @@
+{
+  "name": "newscam",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.14.0",
+    "jsonc": "^2.0.0",
+    "mongoose": "^8.6.1",
+    "telegraf": "^4.16.3",
+    "tronweb": "^6.0.0-beta.4"
+  }
+}

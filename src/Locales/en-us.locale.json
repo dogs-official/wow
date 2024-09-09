@@ -1,0 +1,47 @@
+{
+    "code": "en-us",
+    "display": "🇺🇸 English",
+    "balance": "💵 Here is your balance\n\n- Deposited: <b>%s</b>\n- Bonus: <b>%s</b>\n- Withdrawable: <b>%s</b>",
+    "invite": "👥 Here is your invitation link:\n\n🔗 %s",
+    "keyboards": {
+        "balance": "💰 Balance",
+        "deposit": "➕ Deposit",
+        "withdraw": "➖ Withdraw",
+        "invite": "👥 Invite Friends",
+        "accept": "✅ Accepted",
+        "deny": "⭕ Denied"
+    },
+    "start": {
+        "sendPhoneNumber": "📱 Please send your phone number using the button below",
+        "reward": "🎉 Congratulations! You've just unlocked the <b>%s</b> bonus!",
+        "welcome": "📃 Welcome to the Tether Mining bot. Use the buttons below and start your journey!",
+        "invitedNewFriend": "🔥 Finally! <b>%s</b> joined with your invitation link"
+    },
+    "deposit": {
+        "sendProof": "Your Wallet To Deposit 🔻Minimum <b>%s USDT</b>\n\n<b>Tether TRC20</b>\n<code>%s</code>\n\nSend Deposit To Generated Address 🔺\n\nSend the transaction link or screenshot 📥 to confirm your deposit.",
+        "accepted": "✅ Deposit request accepted",
+        "denied": "⭕ Deposit request denied",
+        "processing": "⌛ OK. We will review your request soon as possible"
+    },
+    "withdraw": {
+        "sendAmount": "💸 Please enter withdrawal amount",
+        "sendWallet": "💳 Please enter your USDT TRC20 address",
+        "processing": "⌛ OK. We will review your request soon as possible",
+        "accepted": "✅ Dear Tether Miner, Please deposit $%s per transaction + $%s commission to your wallet and complete your <b>$%s</b> USDT withdrawal request.\n\nOr if you are a citizen of America or Australia, upload your identity documents and then your action will be done for free. 💸 \n\nWallet address to deposit (Tether TRC20) 🔻\n<code>%s</code>",
+        "denied": "⭕ Withdrawal request denied"
+    },
+    "support": {
+        "sendYourMessage": "📩 Please send your text / picture / video",
+        "messageSent": "⌛ OK. We will review your request soon as possible",
+        "answeredMessage": "📨 You have a message from admin:\n\n%s"
+    },
+    "errors": {
+        "invalidWallet": "⭕ Please enter a valid wallet address",
+        "invalidNumber": "⭕ Please enter a valid number",
+        "numberLessThan": "⭕ Number must be bigger than </b>%s</b>",
+        "numberMoreThan": "⭕ Number must be smaller than </b>%s</b>",
+        "notEnoughBalance": "⭕ You don't have enough balance to perform this action",
+        "cantWithdraw": "⭕ Cannot withdraw your balance without making a deposit",
+        "unknownError": "⭕ An unknown error occurred"
+    }
+}

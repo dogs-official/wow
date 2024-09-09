@@ -1,0 +1,40 @@
+// Set the value to "undefined" if you want to disable optional fields (Tagged with *)
+
+{
+    "walletAddress": "TPjgvfG93MRaqFTnH6XR3LRtP8dEnan1Pc", // Wallet address
+    "admin": "5801998298", // Admin's Telegram ID
+
+    // At least enable one of them
+    "locales": [
+        { "code": "en-us", "enabled": true },
+        { "code": "ru-ru", "enabled": false },
+        { "code": "fr-fr", "enabled": false },
+        { "code": "fa-ir", "enabled": false },
+        { "code": "ar-ae", "enabled": false },
+        { "code": "hi-in", "enabled": false }
+        /*
+            "display": "🇺🇸 English"
+            "display": "🇷🇺 Русский"
+            "display": "🇫🇷 français"
+            "display": "🇮🇷 پارسی"
+            "display": "🇦🇪 العربية"
+            "display": "🇮🇳 हिंदी" 
+        */
+    ],
+
+    "back": ["🏠 Menu"], // Messages that brings the user back to menu
+
+    // Set limits for deposit and withdraw actions
+    "limits": {
+        "minimumDeposit": 2000,
+        "commission": 124,
+        "fee": 231
+    },
+
+    // Set rewards
+    "rewards": {
+        "inviteFriends": 100, // * User will receive this after inviting a friend
+        "friendsTransaction": 5, // * User will receive this after a transaction made by a friend (Percentage of transaction amount)
+        "signupBonus": 8000 // * User will receive this after signing up in the bot
+    }
+}

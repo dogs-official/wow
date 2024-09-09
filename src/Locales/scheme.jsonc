@@ -1,0 +1,40 @@
+{
+    "balance": "string",
+    "keyboards": {
+        "balance": "string",
+        "deposit": "string",
+        "withdraw": "string",
+        "invite": "string",
+        "accept": "string",
+        "deny": "string"
+    },
+    "start": {
+        "sendPhoneNumber": "string",
+        "reward": "string",
+        "success": "string",
+        "welcome": "string"
+    },
+    "deposit": {
+        "sendProof": "string",
+        "accepted": "string",
+        "rejected": "string",
+        "processing": "string"
+    },
+    "withdraw": {
+        "sendAmount": "string",
+        "sendWallet": "string",
+        "processing": "string"
+    },
+    "support": {
+        "sendYourMessage": "string",
+        "answeredMessage": "string"
+    },
+    "errors": {
+        "invalidWallet": "string",
+        "unknownError": "string",
+        "invalidNumber": "string",
+        "numberLessThan": "string",
+        "numberMoreThan": "string",
+        "notEnoughBalance": "string"
+    }
+}
